@@ -13,8 +13,11 @@ Insert before using
 
 INSERT INTO users(name, balance)
 VALUES ('Soroka Aleks', 10.0),
+
 ('Ivanov Ivan', 15000.0),
+
 ('Sidorov Petro', 5000.0),
+
 ('Petrov Aleksandr', 300.0);
 
 INSERT INTO items(name, price, category)
