@@ -9,11 +9,11 @@
 - Lombok;
 
 ------------
-Insert before using
+**Insert before using**
 
-INSERT INTO users(name, balance)
+**INSERT INTO** users(name, balance)
 
-VALUES ('Soroka Aleks', 10.0),
+**VALUES** ('Soroka Aleks', 10.0),
 
 ('Ivanov Ivan', 15000.0),
 
@@ -21,9 +21,9 @@ VALUES ('Soroka Aleks', 10.0),
 
 ('Petrov Aleksandr', 300.0);
 
-INSERT INTO items(name, price, category)
+**INSERT INTO** items(name, price, category)
 
-VALUES ('Beer', 5.0, 'DRINK'),
+**VALUES** ('Beer', 5.0, 'DRINK'),
 
 ('Cheese', 10.0, 'FOOD'),
 
@@ -39,9 +39,9 @@ VALUES ('Beer', 5.0, 'DRINK'),
 
 ('Pencil', 1.5, 'OTHER');
 
-INSERT INTO discounts(item_id, discount)
+**INSERT INTO** discounts(item_id, discount)
 
-VALUES (SELECT ID FROM items WHERE name = 'Cheese', 10),
+**VALUES** (SELECT ID FROM items WHERE name = 'Cheese', 10),
 
 (SELECT ID FROM items WHERE name = 'Washing powder', 29),
 
